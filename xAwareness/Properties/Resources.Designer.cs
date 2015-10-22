@@ -573,6 +573,16 @@ namespace xAwareness.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Kindred_Square_0 {
+            get {
+                object obj = ResourceManager.GetObject("Kindred_Square_0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap KogMaw_Square_0 {
             get {
                 object obj = ResourceManager.GetObject("KogMaw_Square_0", resourceCulture);

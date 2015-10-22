@@ -22,6 +22,11 @@ namespace xAwareness
         public static Bitmap circleEnemyImg = ImageLoader.CreateCircle(120, Color.FromArgb(arrowOpacity, 255, 0, 0), 10);
         public static Bitmap circleAllyImg = ImageLoader.CreateCircle(120, Color.FromArgb(arrowOpacity, 0, 255, 0), 10);
 
+        static ImageLoader()
+        {
+            Resources.ResourceManager.IgnoreCase = true;
+        }
+
         public static Bitmap Load(string championName)
         {
             string cachedPath = GetCachedPath(championName);
