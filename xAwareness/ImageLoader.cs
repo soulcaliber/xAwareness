@@ -52,7 +52,7 @@ namespace xAwareness
             {
                 Directory.CreateDirectory(path);
             }
-            path = Path.Combine(path, Game.Version);
+            path = Path.Combine(path, Game.Version.Split(' ')[1]);
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
