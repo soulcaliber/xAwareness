@@ -294,7 +294,7 @@ namespace xAwareness
             }
         }
 
-        private void Hero_OnLeaveVisibility(AttackableUnit sender, EventArgs args)
+        private void Hero_OnLeaveVisibility(GameObject sender, EventArgs args)
         {
             if (sender.NetworkId == hero.NetworkId)
             {
