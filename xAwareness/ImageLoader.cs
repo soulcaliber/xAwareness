@@ -2,7 +2,6 @@
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
-using System.Globalization;
 using System.IO;
 using LeagueSharp;
 using xAwareness.Properties;
@@ -47,7 +46,7 @@ namespace xAwareness
 
         private static string GetCachedPath(string championName)
         {
-            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "xAwarenessCache");
+            string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Cache", "xAwareness");
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
